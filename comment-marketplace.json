@@ -1,0 +1,36 @@
+Comentario en una publicación con un link de un producto de Marketplace
+{
+   "object":"page",
+   "entry":[
+      {
+         "id":"1263744470459171",
+         "time":1634689375,
+         "changes":[
+            {
+               "value":{
+                  "from":{
+                     "id":"4275752085885765",
+                     "name":"Mati Romera"
+                  },
+                  "post":{
+                     "status_type":"added_photos",
+                     "is_published":true,
+                     "updated_time":"2021-10-20T00:22:52+0000",
+                     "permalink_url":"https://www.facebook.com/1263744470459171/photos/a.1581396482027300/1581396465360635/?type=3",
+                     "promotion_status":"inactive",
+                     "id":"1263744470459171_1581396465360635"
+                  },
+                  "message":"https://www.facebook.com/marketplace/item/720166255609205/",
+                  "post_id":"1263744470459171_1581396465360635",
+                  "comment_id":"1581396465360635_2003522019814742",
+                  "created_time":1634689372,
+                  "item":"comment",
+                  "parent_id":"1263744470459171_1581396465360635",
+                  "verb":"add"
+               },
+               "field":"feed"
+            }
+         ]
+      }
+   ]
+}
