@@ -1,0 +1,289 @@
+{
+	"info": {
+		"_postman_id": "a005230c-7887-4bea-8956-aecca85cdfc0",
+		"name": "api-channel-facebook Ambiente",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "inbound/messenger/text",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"Object\":\"page\",\n   \"Entry\":[\n      {\n         \"ID\":\"1263744470459171\",\n         \"Time\": 1634049511285,\n         \"Messaging\":[\n            {\n               \"Sender\":{\n                  \"ID\":\"2269934899751020\"\n               },\n               \"Recipient\":{\n                  \"ID\":\"1263744470459171\"\n               },\n               \"Timestamp\":1634049511081,\n               \"Message\":{\n                  \"Mid\":\"m_SGS7Z206t_P2oVI9KCWVT_Xi_hpR-pFrQm-EUMUfperiTzTnqMibHl4D7zEHd1ElPZA0U4Lqta06bN4Ky9Eu3Q\",\n                  \"Seq\":0,\n                  \"Text\":\"prueba3\",\n                  \"Attachments\":[\n                     \n                  ]\n               },\n               \"Postback\": null\n            }\n         ],\n         \"Changes\":[\n            \n         ]\n      }\n   ]\n} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/inbound",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/messenger/page Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"object\": \"page\",\n    \"entry\": [\n        {\n            \"id\": \"1263744470459171\",\n            \"time\": 1634681601917,\n            \"messaging\": [\n                {\n                    \"sender\": {\n                        \"id\": \"4275752085885765\"\n                    },\n                    \"recipient\": {\n                        \"id\": \"1263744470459171\"\n                    },\n                    \"timestamp\": 1634681601761,\n                    \"message\": {\n                        \"mid\": \"m_rdQhfhs76H3ivlud7zkqePLvn6jcBvfaKKDlIn_89naUWD2MvZCiztPqz-HDc7HIux50__6noP_dCdVD6hhnCg\",\n                        \"text\": \"https://www.facebook.com/riverplateoficial/posts/2772170062929730\",\n                        \"attachments\": [\n                            {\n                                \"type\": \"fallback\",\n                                \"payload\": {\n                                    \"url\": \"https://www.facebook.com/riverplateoficial/posts/2772170062929730\",\n                                    \"title\": \"\"\n                                }\n                            }\n                        ]\n                    }\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/messenger/page w/Mensaje",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"object\":\"page\",\n   \"entry\":[\n      {\n         \"id\":\"1263744470459171\",\n         \"time\":1634682291564,\n         \"messaging\":[\n            {\n               \"sender\":{\n                  \"id\":\"4275752085885765\"\n               },\n               \"recipient\":{\n                  \"id\":\"1263744470459171\"\n               },\n               \"timestamp\":1634682291262,\n               \"message\":{\n                  \"mid\":\"m_nEHu9wFOGRle10BhG33oQ_Lvn6jcBvfaKKDlIn_89na2_G06LLUMqIGoO2dAarVmo6CbDy5rjd_dNUYkzGNQqw\",\n                  \"text\":\"Mira esta publicaciu00f3n\",\n                  \"attachments\":[\n                     {\n                        \"type\":\"fallback\",\n                        \"payload\":{\n                           \"url\":\"https://www.facebook.com/riverplateoficial/posts/2771609679652435\",\n                           \"title\":\"Club Atletico River Plate is at Estadio Monumental Antonio V. Liberti.\"\n                        }\n                     }\n                  ]\n               }\n            }\n         ]\n      }\n   ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/messenger/page Photo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n   \"object\":\"page\",\n   \"entry\":[\n      {\n         \"id\":\"1263744470459171\",\n         \"time\":1634685298165,\n         \"messaging\":[\n            {\n               \"sender\":{\n                  \"id\":\"4275752085885765\"\n               },\n               \"recipient\":{\n                  \"id\":\"1263744470459171\"\n               },\n               \"timestamp\":1634685298021,\n               \"message\":{\n                  \"mid\":\"m_d_Wqd2pg1F8Twk2m8gpfiPLvn6jcBvfaKKDlIn_89nZ1MEjXJjsPLcilAlhuO2KmxObxlJR3JX37npoC9mUGCg\",\n                  \"attachments\":[\n                     {\n                        \"type\":\"fallback\",\n                        \"payload\":{\n                           \"url\":\"https://www.facebook.com/1263744470459171/photos/a.1581396482027300/1581397805360501/?type=3\",\n                           \"title\":\"\"\n                        }\n                     }\n                  ]\n               }\n            }\n         ]\n      }\n   ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/messenger/image",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Object\": \"page\",\n    \"Entry\": [\n        {\n            \"ID\": \"1263744470459171\",\n            \"Time\": 1634080062687,\n            \"Messaging\": [\n                {\n                    \"Sender\": {\n                        \"ID\": \"2269934899751020\"\n                    },\n                    \"Recipient\": {\n                        \"ID\": \"1263744470459171\"\n                    },\n                    \"Timestamp\": 1634080062474,\n                    \"Message\": {\n                        \"Mid\": \"m__dWn11MacLg6aV-D4evEbvXi_hpR-pFrQm-EUMUfpeqoOgMjg5LlRaz2lVE4LnCZV0jSeNxU0HgUrxQ2J1O32g\",\n                        \"Seq\": 0,\n                        \"Text\": \"\",\n                        \"Attachment\": [\n                            {\n                                \"Type\": \"image\",\n                                \"Payload\": {\n                                    \"Template\": null,\n                                    \"Text\": null,\n                                    \"URL\": \"https://scontent.xx.fbcdn.net/v/t1.15752-9/242975020_395945148648300_4132093256505999169_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=58c789&_nc_ohc=P0cHVz4cY-8AX8JFQ8F&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=0b89f6143edd07a10db1923d8faa4992&oe=618B56B8\",\n                                    \"Elements\": [],\n                                    \"Buttons\": []\n                                }\n                            }\n                        ]\n                    },\n                    \"Postback\": null\n                }\n            ],\n            \"Changes\": []\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/messenger/sticker",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Object\": \"page\",\n    \"Entry\": [\n        {\n            \"ID\": \"1263744470459171\",\n            \"Time\": 1634081290690,\n            \"Messaging\": [\n                {\n                    \"Sender\": {\n                        \"ID\": \"2269934899751020\"\n                    },\n                    \"Recipient\": {\n                        \"ID\": \"1263744470459171\"\n                    },\n                    \"Timestamp\": 1634081290510,\n                    \"Message\": {\n                        \"Mid\": \"m_6vJr3VzXfiliPpw1S9BO9_Xi_hpR-pFrQm-EUMUfpervnaLTrti98ipzt54SXX1vPUmOuucs_-1oWuYSHH-Zqw\",\n                        \"Seq\": 0,\n                        \"Text\": \"\",\n                        \"Attachments\": [\n                            {\n                                \"Type\": \"image\",\n                                \"Payload\": {\n                                    \"Template\": null,\n                                    \"Text\": null,\n                                    \"URL\": \"https://scontent.xx.fbcdn.net/v/t39.1997-6/p100x100/64750008_2318953531530495_8563417597058482176_n.png?_nc_cat=104&ccb=1-5&_nc_sid=ac3552&_nc_ohc=Pm7CUK7cUMgAX-0rObv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=8e45d19325e5f3a335504d8b8ce307df&oe=616A86A6\",\n                                    \"Elements\": [],\n                                    \"Buttons\": []\n                                }\n                            }\n                        ]\n                    },\n                    \"Postback\": null\n                }\n            ],\n            \"Changes\": []\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/page/comment Publicación Texto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"object\": \"page\",\n    \"entry\": [\n        {\n            \"id\": \"1263744470459171\",\n            \"time\": 1634680687,\n            \"changes\": [\n                {\n                    \"value\": {\n                        \"from\": {\n                            \"id\": \"4275752085885765\",\n                            \"name\": \"Mati Romera\"\n                        },\n                        \"post\": {\n                            \"status_type\": \"mobile_status_update\",\n                            \"is_published\": true,\n                            \"updated_time\": \"2021-10-19T21:58:04+0000\",\n                            \"permalink_url\": \"https://www.facebook.com/permalink.php?story_fbid=1263971303769821&id=1263744470459171\",\n                            \"promotion_status\": \"inactive\",\n                            \"id\": \"1263744470459171_1263971303769821\"\n                        },\n                        \"message\": \"comentario\",\n                        \"post_id\": \"1263744470459171_1263971303769821\",\n                        \"comment_id\": \"1263971303769821_2003458696487741\",\n                        \"created_time\": 1634680684,\n                        \"item\": \"comment\",\n                        \"parent_id\": \"1263744470459171_1263971303769821\",\n                        \"verb\": \"add\"\n                    },\n                    \"field\": \"feed\"\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "inbound/page/comment Foto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"object\": \"page\",\n    \"entry\": [\n        {\n            \"id\": \"1263744470459171\",\n            \"time\": 1634681168,\n            \"changes\": [\n                {\n                    \"value\": {\n                        \"from\": {\n                            \"id\": \"4275752085885765\",\n                            \"name\": \"Mati Romera\"\n                        },\n                        \"post\": {\n                            \"status_type\": \"added_photos\",\n                            \"is_published\": true,\n                            \"updated_time\": \"2021-10-19T22:06:05+0000\",\n                            \"permalink_url\": \"https://www.facebook.com/1263744470459171/photos/a.1581396482027300/1581396465360635/?type=3\",\n                            \"promotion_status\": \"inactive\",\n                            \"id\": \"1263744470459171_1581396465360635\"\n                        },\n                        \"message\": \"demo\",\n                        \"post_id\": \"1263744470459171_1581396465360635\",\n                        \"comment_id\": \"1581396465360635_2003462173154060\",\n                        \"created_time\": 1634681165,\n                        \"item\": \"comment\",\n                        \"parent_id\": \"1263744470459171_1581396465360635\",\n                        \"verb\": \"add\"\n                    },\n                    \"field\": \"feed\"\n                }\n            ]\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://dev-gke.chattigo.com/pantera/facebook/v2/inbound",
+					"protocol": "http",
+					"host": [
+						"dev-gke",
+						"chattigo",
+						"com"
+					],
+					"path": [
+						"pantera",
+						"facebook",
+						"v2",
+						"inbound"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "outbound/messenger/text",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"id value\",\n    \"did\": \"1263744470459171\",\n    \"idUser\": 123,\n    \"msisdn\": \"1319342308\",\n    \"type\": \"type vlue\",\n    \"channel\": \"MESSENGER\",\n    \"channelProvider\": \"channelProvider value\",\n    \"content\": \"content value\",\n    \"name\": \"name value\",\n    \"isAutResp\": false,\n    \"isAttachment\": false,\n    \"attachment\": {},\n    \"message\": \"\",\n    \"auth\": {},\n    \"statusChat\": \"statusChat value\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/outbound",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"outbound"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
