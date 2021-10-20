@@ -1,0 +1,43 @@
+Envio de un producto de marketplace
+
+{
+   "object":"page",
+   "entry":[
+      {
+         "id":"1263744470459171",
+         "time":1634688474585,
+         "messaging":[
+            {
+               "sender":{
+                  "id":"4275752085885765"
+               },
+               "recipient":{
+                  "id":"1263744470459171"
+               },
+               "timestamp":1634688474426,
+               "message":{
+                  "mid":"m_-DgNgDLK3s5MPDOXtRrRj_Lvn6jcBvfaKKDlIn_89namEL0Hcj0DhszXY-fQdYd4ckC9RWc7yHeUD0B7f8d0xA",
+                  "attachments":[
+                     {
+                        "type":"template",
+                        "payload":{
+                           "product":{
+                              "elements":[
+                                 {
+                                    "id":"6231249323614477",
+                                    "retailer_id":"1634557435tuzi616d5dfbe23361155116910",
+                                    "image_url":"https://scontent.xx.fbcdn.net/v/t45.5328-4/246366139_6964302633595344_3942741320234672282_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=c48759&_nc_ohc=EPEw_6yfIaQAX9r-f5x&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=a48a9b34b54f2c0070372e008c832bcc&oe=61737388",
+                                    "title":"Specialized rock hopper como 2019",
+                                    "subtitle":"$1,234.00"
+                                 }
+                              ]
+                           }
+                        }
+                     }
+                  ]
+               }
+            }
+         ]
+      }
+   ]
+}
