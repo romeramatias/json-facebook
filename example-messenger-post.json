@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "contactName": "Mati Romera",
+            "content": "test post messenger",
+            "dateTime": "2021-11-08T20:20:45.010+00:00",
+            "gidreaded": false,
+            "id": 442813067,
+            "idChannel": 3708,
+            "idChat": 81439211,
+            "idContact": "4275752085885765",
+            "idMsgChannel": "m_BPBFPalp369AT7cn6JuSGfLvn6jcBvfaKKDlIn_89nYl0Oi3JpFTCgphonZvzTni01peiYfuse3jQLi0iXXZ4g",
+            "idUser": 0,
+            "status": "RECIBIDO",
+            "template": {
+                "elements": [
+                    {
+                        "id": "",
+                        "image_url": "https://www.facebook.com/riverplateoficial/posts/2791211617692241",
+                        "type": "fallback"
+                    }
+                ],
+                "template_type": "generic"
+            },
+            "type": "INBOUND"
+        }
+    ],
+    "room": "chat-81439211"
+}
