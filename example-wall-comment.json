@@ -1,0 +1,24 @@
+{
+    "contactName": "Mati Romera",
+    "content": "test comment",
+    "dateTime": "2021-11-08T20:38:49.910+00:00",
+    "gidreaded": false,
+    "id": 442813069,
+    "idChannel": 3707,
+    "idChat": 81439212,
+    "idContact": "2004115359755408_2018653871634890",
+    "idMsgChannel": "2004115359755408_2018653871634890",
+    "idUser": 0,
+    "status": "RECIBIDO",
+    "template": {
+        "elements": [
+            {
+                "id": "2004115359755408_2018653871634890",
+                "image_url": "https://www.facebook.com/permalink.php?story_fbid=2004115359755408&id=1263744470459171",
+                "type": "comment"
+            }
+        ],
+        "template_type": "generic"
+    },
+    "type": "INBOUND"
+}
