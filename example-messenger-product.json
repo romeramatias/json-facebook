@@ -1,0 +1,27 @@
+{
+    "contactName": "Mati Romera",
+    "dateTime": "2021-11-08T20:29:04.827+00:00",
+    "gidreaded": false,
+    "id": 442813068,
+    "idChannel": 3708,
+    "idChat": 81439211,
+    "idContact": "4275752085885765",
+    "idMsgBefore": 442813067,
+    "idMsgChannel": "m_iRxusWiBaH3QgQ7L6p_-GPLvn6jcBvfaKKDlIn_89nbCKZuUrFkbjt5d_DshFPNjpcxl0k2Gf2Fy1lc0DIlnfQ",
+    "idUser": 0,
+    "status": "RECIBIDO",
+    "template": {
+        "elements": [
+            {
+                "id": "4010471669063084",
+                "image_url": "https://scontent.xx.fbcdn.net/v/t45.5328-4/240776713_4048544688601573_7571048143486629811_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=c48759&_nc_ohc=3AqiH64-wgwAX-vovYv&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=5dc5e17060af47e967d39cd46eca947d&oe=618DE341",
+                "price": "$7,699.00",
+                "subtitle": "$7,699.00",
+                "title": "Zapatillas Adidas Fortarun K",
+                "type": "product"
+            }
+        ],
+        "template_type": "generic"
+    },
+    "type": "INBOUND"
+}
